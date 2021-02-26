@@ -1,0 +1,68 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 1rem;
+  background-color: grey;
+}
+
+.tcard {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#group-area {
+  background-color: rgb(6, 17, 51);
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  height: 330px;
+  resize: none;
+  color: white;
+  font-family: Cabin;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+.buttons-row {
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 20px;
+  color: #fff;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  align-items: center;
+  border-radius: 20px;
+}
+
+#save-btn {
+  background-color: rgb(33, 157, 108);
+}
+
+#save-btn:hover {
+  box-shadow: 0 0 3px #ddd;
+}
+
+#delete-btn {
+  background-color: rgb(172, 48, 48);
+}
+
+#delete-btn:hover {
+  box-shadow: 0 0 3px #ddd;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Botty</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="tcard">
+        <textarea
+          placeholder="Enter your emails..."
+          id="group-area"
+          autocomplete="off"
+          autocapitalize="off"
+          spellcheck="false"
+          data-gramm_editor="false"
+        ></textarea>
+      </div>
+      <div class="buttons-row">
+        <div class="button" id="save-btn">
+          <span style="font-weight: 900">Save</span>
+        </div>
+        <div class="button" id="delete-btn">
+          <span style="font-weight: 900">Delete</span>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      require("./main.js");
+    </script>
+  </body>
+</html>
